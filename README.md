@@ -1,10 +1,10 @@
 # Promotional Email source files
 [See the hosted version here.](https://jackisbuilding.com/promotionalEmail.html)
 
-[Main html section](https://github.com/GuilloryJ/PromotionalEmail/blob/main/src/layouts/index-layout.html)
-[Body section](https://github.com/GuilloryJ/PromotionalEmail/blob/main/src/pages/index.html)
-[Footer Section](https://github.com/GuilloryJ/PromotionalEmail/blob/main/src/partials/footerArea.html)
-[Sass](https://github.com/GuilloryJ/PromotionalEmail/blob/main/src/assets/scss/_settings.scss)
+* [Main html section](https://github.com/GuilloryJ/PromotionalEmail/blob/main/src/layouts/index-layout.html)
+* [Body section](https://github.com/GuilloryJ/PromotionalEmail/blob/main/src/pages/index.html)
+* [Footer Section](https://github.com/GuilloryJ/PromotionalEmail/blob/main/src/partials/footerArea.html)
+* [Sass](https://github.com/GuilloryJ/PromotionalEmail/blob/main/src/assets/scss/_settings.scss)
 
 Requires Foundation for Emails to run. See the [hosted version](https://jackisbuilding.com/promotionalEmail.html) for an example of the output.
 
