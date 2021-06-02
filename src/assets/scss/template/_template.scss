@@ -1,0 +1,357 @@
+/* Mobile */
+@media only screen and (max-width: 600px)
+{
+  .mainArea
+  {
+    max-width: 85% !important;
+  }
+  table.contentBlock.row.leftContent
+  {
+    table.sideBySide, .sideBySide tbody, .sideBySide tr,  .sideBySide td
+    {
+      width:100% !important;
+      display:block;
+      text-align:center;
+    }
+    
+  }
+  .contentBlock
+  {
+    p
+    {
+      padding-left:20px !important;
+      padding-right:20px !important;
+      text-align:center !important;
+    }
+    h2
+    {
+      text-align:center !important;
+      padding-left:5px !important;
+      padding-right:5px !important;
+    }
+    a
+    {
+      margin-left:0 !important;
+      margin-right:0 !important;
+      margin-top:1px !important;
+    }
+  }
+  .shield
+  {
+    margin-bottom:25px !important;
+  }
+  .monitor
+  {
+    margin-bottom:25px !important;
+  }
+ 
+  .storeButton
+  {
+    margin-left:10px !important;
+    margin-right:10px !important;
+    display:inline-block;
+    text-align: center !important;
+  }
+  .storeLogos tr
+  {
+    text-align: center !important;
+  }
+  .footerSpace td
+  {
+    height:20px !important;
+    font-size:20px !important;
+    line-height:20px !important;
+  }
+  .footer
+  {
+    
+    text-align:center !important;
+    .footerContent
+    {
+      width:85% !important;
+    }
+    table#footerHalf1, table#footerHalf2
+    {
+      width:100% !important;
+      display:block;
+      text-align:center !important;
+      tbody, tr, td.contact
+      {
+        width:100% !important;
+        display:block;
+        text-align:center !important;
+        p
+        {
+          text-align:center !important;
+          padding-left:0px !important;
+          padding-right:0px !important;
+          margin-left:0px !important;
+          padding-right:0px !important;
+        }
+      }
+      .socialSpace
+      {
+        width:40% !important;
+      }
+      .socialIconsContainer .columns th
+      {
+        display:inline-block !important;
+      }
+      .socialIconsContainer .columns table tbody tr
+      {
+        text-align: center !important;
+      }
+    }
+  }
+  .footer tr
+  {
+    text-align:center !important;
+  }
+}
+
+
+
+body,
+html, 
+.body {
+  background: #ebeff0 !important;
+}
+
+.mainArea
+{
+  border:solid 1px #c8c8c8;
+  margin-top:64px;
+  table-layout:fixed;
+  max-width: 600px;
+}
+.logo
+{
+  width: 112px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.main
+{
+  border-top:solid 3px #29d464;
+  margin-bottom:45px;
+}
+
+.shield
+{
+  vertical-align:middle;
+}
+
+.intro
+{
+  height:322px;
+  color:#000000;
+  text-align:center;
+  a.button
+  {
+    background:#2a5d90;
+    background-color:#2a5d90;
+    color:#ffffff;
+    font-size:14px;
+    border:solid 2px #2a5d90;
+    border-radius:25px;
+    display:inline-block;
+    padding-top:8px;
+    padding-bottom:8px;
+    width:200px;
+    text-align:center;
+    font-size: 18px;
+    margin-bottom:45px;
+  }
+  h1, p
+  {
+    text-align:center;
+    hyphens:none;
+  }
+  p
+  {
+    padding-left:40px;
+    padding-right:40px;
+    font-size:18px;
+    margin-bottom:30px;
+  }
+  h1
+  {
+    color:#179fdc;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom:30px;
+  }
+}
+
+table.contentBlock.row
+{
+  color:#000000;
+  //border-top:solid 1px #b3b3b3;
+
+  .columns
+  {
+    vertical-align: middle;
+  }
+  a.button
+  {
+    border:solid 1px #1d1d1d;
+    border-radius:25px;
+    padding-top:8px;
+    padding-bottom:8px;
+    width:186px;
+    color:#222525;
+    font-size:14px;
+    display:inline-block;
+    text-align:center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:16px;
+    margin-right:30px;
+  }
+  h2
+  {
+    font-size:25px;
+    padding-left:16px;
+    padding-right:30px;
+    hyphens:none;
+    font-weight: 500;
+  }
+  p
+  {
+    font-size:15px;
+    padding-left:16px;
+    padding-right:30px;
+    hyphens:none;
+    margin-bottom:25px;
+  }
+}
+
+table.contentBlock.row.leftContent
+{
+  #half.sideBySide
+  {
+    width:50%;
+    .monitor
+    {
+      display:inline-block;
+    }
+  }
+  p, h2
+  {
+    padding-right:16px;
+    padding-left:30px;
+  }
+  a.button
+  {
+    margin-right:16px;
+    margin-left:30px;
+  }
+}
+.bottom
+{
+  //border-top:solid 1px #b3b3b3;
+  h2
+  {
+    text-align: center;
+    font-size:22px;
+    font-weight: 500 !important;
+  }
+}
+
+.storeLogos
+{
+  //border-bottom:solid 3px #29d464;
+  padding-bottom:45px;
+  .storeSpace
+  {
+    width:50px !important;
+  }
+}
+
+
+.footer
+{
+  background:#ebeff0;
+  background-color:#ebeff0;
+  p
+  {
+    font-size:11px;
+    hyphens:none;
+  }
+  a
+  {
+    text-decoration:underline;
+    font-size:11px;
+    color:#125cc7;
+  }
+  .social
+  {
+    width:22px !important;
+  }
+  .legal
+  {
+    width:75%;
+    p
+    {
+      padding-right:15px;
+      margin-bottom:0px;
+    }
+    :nth-child(3), :nth-child(4), :nth-child(5)
+    {
+      margin-bottom:10px;
+    }
+    :nth-child(6)
+    {
+      margin-bottom:30px;
+    }
+  }
+  table.contact#footerHalf2
+  {
+    width: 25%;
+    text-align:left;
+    p
+    {
+      margin-bottom:0;
+    }
+    .socialSpace
+    {
+      width:7px;
+    }
+    td
+    {
+      text-align:left;
+    }
+  }
+}
+
+h2.title
+{
+  color:#179fdc;
+  font-weight: 400;
+}
+
+.slogan
+{
+  text-align:center;
+  width:130px;
+}
+
+.sloganRow
+{
+  border-top:solid 3px #29d464;
+}
+
+.line
+{
+  height:0.99px !important;
+  background:#b3b3b3;
+  background-color:#b3b3b3;
+  width:initial !important;
+  display:table-cell !important;
+}
+.lineMargin
+{
+  width:20px !important;
+  display:table-cell !important;
+}
